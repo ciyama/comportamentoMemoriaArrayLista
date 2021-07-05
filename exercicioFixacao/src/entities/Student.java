@@ -25,6 +25,12 @@ public class Student {
 		this.email = email;
 	}
 	
+	public String toString() {
+		return name
+				+ ", " 
+				+ email;
+	}
+	
 	
 	
 	
