@@ -38,14 +38,13 @@ public class Employee {
 		this.salario = salario;
 	}
 	
-	public double aumento(double aumento) {
-		return this.salario += (this.salario * aumento / 100);  
+	public double aumento(double porcentagem) {
+		return this.salario += (this.salario * porcentagem / 100);  
 	}
 	
 	
 	public String toString() {
-		return "List of employees: "
-				+ id 
+		return  id 
 				+ ", "
 				+ nome
 				+ ", "
